@@ -1,0 +1,75 @@
+strong {
+    color: thistle;
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(233, 174, 233);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    font-weight: 800px;
+    font-size: 100px;
+}
+
+h1 {
+    color: rgb(214, 145, 214);
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(233, 174, 233);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+h2 {
+    color: rgb(211, 132, 211);
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(228, 146, 228);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(207, 113, 207);
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(226, 116, 226);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    letter-spacing: 3px;
+    text-align: right;
+}
+
+h4 {
+    color: rgb(206, 95, 206);
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(224, 102, 224);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+h5 {
+    color: rgb(202, 75, 202);
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(223, 75, 223);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h6 {
+    color: rgb(202, 54, 202);
+    border-style: inset;
+    border-width: 5px;
+    border-color: rgb(224, 46, 224);
+    padding: 10px 50px 20px;
+    margin: 10px 50px 20px;
+    text-align: right;
+}

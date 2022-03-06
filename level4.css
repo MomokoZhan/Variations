@@ -1,0 +1,46 @@
+p {
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: large;
+    line-height: 100px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(22, 66, 95);
+}
+
+strong {
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: large;
+    line-height: 100px;
+    letter-spacing: -1px;
+    padding: 50px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(224, 112, 155);
+}
+
+p {
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(230, 128, 128);
+    color: rgb(211, 94, 94);
+}
+
+h2 {
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(231, 146, 124);
+}

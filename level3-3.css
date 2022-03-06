@@ -1,0 +1,22 @@
+h1 {
+    color: rgb(253, 0, 106);
+    border: mediumorchid;
+    border-style: groove;
+    border-radius: 10px 100px / 120px;
+    border-collapse: separate;
+}
+
+em {
+    float: left;
+    border-bottom: 2mm ridge rgb(170, 50, 220, .6);
+    color: rgb(126, 19, 37);
+}
+
+li {
+    border-top: 1rem solid pink;
+    color: rosybrown;
+}
+
+p {
+    color: rgb(155, 44, 53);
+}

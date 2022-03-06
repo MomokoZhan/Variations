@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(216, 77, 135);
+    border: rgb(160, 109, 173);
+    border-style: groove;
+    border-radius: 10px 100px / 120px;
+    border-collapse: separate;
+    font-family: cursive;
+    letter-spacing: 10px;
+}
+
+em {
+    float: left;
+    border-bottom: 2mm ridge rgba(179, 97, 214, 0.6);
+    color: rgb(126, 19, 37);
+    font-family: cursive;
+    letter-spacing: 10px;
+}
+
+li {
+    border-top: 1rem solid pink;
+    color: rosybrown;
+    font-family: cursive;
+    letter-spacing: 10px;
+    text-transform: capitalize;
+}
+
+p {
+    color: rgb(155, 44, 53);
+    font-family: cursive;
+}

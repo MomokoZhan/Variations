@@ -1,0 +1,32 @@
+p {
+    padding: 10px 50px 20px;
+    height: 250px;
+    width: 260px;
+    padding-right: 30px;
+    border-style: dotted;
+    border-color: rgb(218, 89, 72);
+    color: lightcoral;
+    font-family: monospace;
+    text-align: center;
+}
+
+h1 {
+    font-family: monospace;
+    color: lightpink;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: monospace;
+    color: lightpink;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    float: right;
+    line-height: 200%;
+    text-transform: lowercase;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+body {
+    text-align: center;
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #53ddb4;
+    }
+    100% {
+        background: #d14747;
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+        background: #e6ba43;
+    }
+    100% {
+        background: #db4f4f;
+    }
+}
+
+h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(182, 79, 79);
+    -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+h4 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(182, 79, 79);
+    -webkit-animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px);
+        transform: translateZ(400px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px);
+        transform: translateZ(400px);
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}

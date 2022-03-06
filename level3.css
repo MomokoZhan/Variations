@@ -1,0 +1,39 @@
+p {
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(37, 54, 83);
+    color: rgb(69, 125, 151);
+}
+
+h1 {
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(22, 66, 95);
+}
+
+h2 {
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(22, 66, 95);
+}
+
+strong {
+    color: cornflowerblue;
+}
+
+big {
+    padding: 50px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(50, 72, 110);
+}

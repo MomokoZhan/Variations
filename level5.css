@@ -1,0 +1,80 @@
+p {
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: large;
+    line-height: 100px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(230, 128, 128);
+    color: rgb(211, 94, 94);
+    -webkit-text-stroke: 0.05rem rgb(224, 112, 155);
+    color: transparent;
+    text-shadow: -5px 0 rgba(0, 255, 255, 0.4), 5px 0 rgba(255, 0, 255, 0.4);
+}
+
+em {
+    vertical-align: super;
+}
+
+strong {
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: large;
+    line-height: 100px;
+    letter-spacing: -1px;
+    padding: 50px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(167, 120, 139);
+    -webkit-text-stroke: 0.05rem rgb(224, 112, 155);
+    color: transparent;
+    text-shadow: -5px 0 rgba(0, 255, 255, 0.4), 5px 0 rgba(255, 0, 255, 0.4);
+}
+
+h2 {
+    padding: 50px;
+    padding-left: 100px;
+    margin: 30px;
+    border: 10px;
+    border-style: dashed;
+    border-color: rgb(231, 146, 124);
+}
+
+body {
+    background-clip: content-box;
+    background-image: repeating-radial-gradient(rgb(212, 119, 119), rgb(142, 207, 207) 10%, rgb(205, 148, 216) 15%);
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes text-focus-in {
+    0% {
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
